@@ -6,7 +6,7 @@ pipeline {
         sh '''
           #!/bin/bash
           echo "Inside docker container"
-          cat /etc/lsb_release
+          cat /etc/lsb-release
         '''
       }
     }
